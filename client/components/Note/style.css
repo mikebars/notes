@@ -1,0 +1,31 @@
+.note {
+  height: calc(100% - 4rem);
+}
+
+.title {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.title:focus {
+  text-decoration: underline;
+}
+
+.text {
+  height: calc(100% - 6rem);
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.text::placeholder {
+  color: lightgray;
+}

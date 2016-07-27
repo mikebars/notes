@@ -1,0 +1,22 @@
+.nav {
+  height: 4rem;
+  width: 100%;
+  border-bottom: 0.15rem solid darkgray;
+}
+
+.back-home {
+  text-decoration: none;
+  color: dimgray;
+  line-height: 4rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  float: left;
+}
+
+.delete-note {
+  text-decoration: none;
+  line-height: 4rem;
+  padding: 0 1rem;
+  font-size: 2rem;
+  float: right;
+}
