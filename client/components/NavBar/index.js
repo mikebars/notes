@@ -13,14 +13,14 @@ class NavBar extends Component {
     return (
       <nav className={ style['nav'] }>
         <Link to='/home' className={ style['back-home'] }>
-          { `⬅` }
+          { `◁` }
         </Link>
         <Link
           to='/home'
           className={ style['delete-note'] }
           onClick={ event => this.handleDelete( event ) }
         >
-          { `🗑` }
+          { `⛌` }
         </Link>
       </nav>
     );
